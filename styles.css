@@ -1,0 +1,29 @@
+header,
+footer {
+    background-color: #1f2937;
+    height: 75px;
+    outline: 1px solid red;
+    color: #f9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    background-color: #e5e7eb;
+    height: 300px;
+    width: 100%;
+    outline: 1px solid red;
+}
+.quote {
+    outline: 1px solid red;
+    background-color: #1f2937;
+    height: 300px;
+    width: 100%;
+}
+.call-to-action {
+    outline: 1px solid red;
+    background-color: darkslategray;
+    height: 300px;
+    width: 100%;
+}
