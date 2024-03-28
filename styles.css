@@ -41,30 +41,58 @@ nav {
 }
 
 .info {
-    background-color: darkslategrey;
     height: 300px;
     width: 100%;
     outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-container {
+    display: flex;
+    flex-direction: row;
 }
 .quote-container {
     outline: 1px solid red;
     background-color: #e5e7eb;
     height: 300px;
     width: 100%;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
     color: #1f2937;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 32px;
 }
-.call-to-action {
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.call-to-action-container {
     outline: 1px solid red;
-    background-color: darkslategray;
     height: 300px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66%;
+    height: 12px;
+    padding: 74px;
+    background-color: #3882f6;
+    color: #f9FAF8;
 }
 
 ul {
