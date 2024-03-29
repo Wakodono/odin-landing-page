@@ -16,10 +16,11 @@ p {
     margin: 0;
 }
 
+
 header,
 footer {
-    background-color: #1f2937;
     outline: 1px solid red;
+    background-color: #1f2937;
     color: #f9FAF8;
     display: flex;
     flex-direction: column;
@@ -54,18 +55,36 @@ nav {
 .info {
     height: 300px;
     width: 100%;
-    outline: 1px solid red;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    border: 4px solid #3882f6;
+    border-radius: 14px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #1f2937;
 }
 
 .illustration-container {
     display: flex;
     flex-direction: row;
+    gap: 32px;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
 }
 
 .quote-section {
-    outline: 1px solid red;
     background-color: #e5e7eb;
     height: 300px;
     width: 100%;
@@ -94,7 +113,6 @@ nav {
 }
 
 .call-to-action-container {
-    outline: 1px solid red;
     height: 300px;
     width: 100%;
     display: flex;
