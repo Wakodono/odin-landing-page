@@ -4,6 +4,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding: 0px 64px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
 
 header,
@@ -88,11 +94,21 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 66%;
+    width: 60%;
     height: 12px;
     padding: 74px;
     background-color: #3882f6;
     color: #f9FAF8;
+}
+
+.call-to-action-button {
+    border: 1px solid #f9FAF8;
+    padding: 3px 16px;
+    border-radius: 5px;
+}
+
+.call-to-action-text h3 {
+    margin-bottom: 7px;
 }
 
 ul {
