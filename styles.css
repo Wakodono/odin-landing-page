@@ -64,28 +64,33 @@ nav {
     flex-direction: row;
 }
 
-.quote-container {
+.quote-section {
     outline: 1px solid red;
     background-color: #e5e7eb;
     height: 300px;
     width: 100%;
     color: #1f2937;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 32px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    width: 100%;
 }
 
 .author {
     align-self: flex-end;
+    font-weight: 700;
 }
 
 .call-to-action-container {
