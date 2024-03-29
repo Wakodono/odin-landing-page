@@ -19,7 +19,6 @@ p {
 
 header,
 footer {
-    outline: 1px solid red;
     background-color: #1f2937;
     color: #f9FAF8;
     display: flex;
@@ -30,11 +29,20 @@ footer {
     margin: 0;
 }
 
+header {
+    padding: 32px;
+}
+
 nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9FAF8;
 }
 
 .links ul {
@@ -44,12 +52,31 @@ nav {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    gap: 32px;
 }
 
+.hero-left button {
+    background-color: #3882f6;
+    color: #f9FAF8;
+    align-self: flex-start;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 704px;
+    gap: 5px;
+}
 
 .main-text {
     font-size: 48px;
     font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .info {
@@ -59,6 +86,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 12px 0px;
 }
 
 .info img {
