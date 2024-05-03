@@ -6,7 +6,7 @@ This project is a simple landing page built using HTML and CSS. It features a he
 
 ## Usage
 
-To view the landing page simply open the `index.html` file in a web browser
+To view the landing page simply open the link in the about section of this repo
 
 ## Credits
 
